@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tab, TabList, TabPanel, TabPanels } from '@fluentui/react-components';
+import { Tab, TabList } from '@fluentui/react-components';
 
 const TabComponent = ({ tabs, selectedTabId }) => {
   const [selectedTab, setSelectedTab] = useState(selectedTabId);

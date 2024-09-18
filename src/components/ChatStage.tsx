@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Text } from '@fluentui/react-components';
+import { Text } from '@fluentui/react-components';
 
 const ChatStage = ({ pagetitle, url, svgIcon }) => {
   return (
