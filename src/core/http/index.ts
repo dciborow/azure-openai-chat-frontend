@@ -33,7 +33,6 @@ export async function getAPIResponse(
 ): Promise<BotResponse | Response> {
   const response = await callHttpApi(requestOptions, httpOptions);
 
-  // TODO: we should just use the value from httpOptions.stream
   const streamResponse = requestOptions.type === 'ask' ? false : httpOptions.stream;
   if (streamResponse) {
     return response;
